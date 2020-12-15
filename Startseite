@@ -5,9 +5,12 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="lightbox.min.css">
+	<script src="lightbox-plus-jquery.min.js"></script>
  	<title>Bäckerei süß &amp; salzig</title>
 </head>
-<div id="wrapper">
+<body>
+	
 	<div id="header">
 		<img src="Logo.png" alt="logo" width="20%">
 		<h2>Herzlich Willkommen bei der <font style="color:#F53D65">Bäckerei</font> süß &amp; salzig</h2>
@@ -16,10 +19,11 @@
 		<p>Stöbern Sie durch unsere Internetseiten und besuchen Sie uns mal vor Ort.<br>
 			Wir freuen uns auf Sie.</p>
 	</div>
+	
 	<div id="navbar">
-		<table class="table1">
+		<table>
 			<tr>
-				<td class="active" width="5%"><a href="Startseite.html">Start</a></td>
+				<td class="active" width="5%"><a href="Startseite.html"><font style="color:#F53D65">Start</font></a></td>
 				<td class="bar" width="10%"><a href="ÜberUns.html">Über uns</a></td>
 				<td class="bar" width="30%"><a href="UnserSortiment.html">Unser Sortiment</a></td>
 				<td class="bar" width="30%"><a href="Dienstleistungen.html">Dienstleistungen</a></td>
@@ -27,30 +31,59 @@
 			</tr>
 		</table>
 	</div>
-	<div id="contentn">
-		<table class="table2">
-		<tr>
-			<td class="text">
-			<h1>Das sind Wir !</h1>
-			<h2>Die Founder von <font style="color:#F53D65">Bäckerei</font> süß &amp; salzig</h2>
+	
+	<div id="content1">
+   	 <h1>Das sind Wir !</h1>
+		<img class="pic" src="Anny.jpg" alt="img" width="22%" style="float:right;margin-right: 12%">
+		<img class="pic" src="Michel.jpg" alt="img" width="22%" style="float:right;margin-right: 2%">
+		<h2>Die Founder von <font style="color:#F53D65">Bäckerei</font> süß &amp; salzig</h2>
 			<p>Seid 2020 steht die kleine aber feine <br>
 			Bäckerei im Herzen von Hannover.<br>
 			Auch in Covid-19-Zeiten stehen Michel und Anny <br>
 			für euch ab 06:30 Uhr hinter der Backtheke.</p>
+			
 			<p>Mit viel Liebe backt Anny jeden Morgen ihre <br>
 			frischen Zimtschnecken nach dem Rezept ihrer <br>
 			Oma. Zusammen mit dem selbst kreierten Kaffee-<br>
 			Chai-Latte von Michel wird das Frühstück perfekt. </p>
-		</td>
-		</tr></table>
-
+		
+		<p>Finde <font style="color:#F53D65">hier</font> mehr über die Michel und Anny heraus </p>
+	</div>		
+			
+	<div id="content2">
+ 	 <h1>Unser Sortiment</h1>
+		<h2>Brot, Brötchen, Croissants, Küchlein, Broiche, Kuchen, Laugengebäck... und vieles mehr!</h2><br>
+		<div class="gallery">
+		<a href="Wahl.html" data-lightbox="mygallery" data-title="Nach Wahl"><img src="Wahl.jpg" alt="" width="30%" style="float:right;margin-right: 3%"></a>
+		<a href="Salzig.html" data-lightbox="mygallery" data-title="Salzig"><img src="Brot.jpg" alt="" width="30%" style="float:right;margin-right: 3%"></a>
+		<a href="Süß.html" data-lightbox="mygallery" data-title="Süß"><img src="Kuchen.jpg" alt="" width="30%" style="float:right;margin-right:3%"></a>
+		</div>
 	</div>
-	<div id="contentk">
+	
+	<div id="contentk" style="text-align:center">
+ 	  <h1 style="margin-bottom:3%">Noch mehr von Bäckerei süß &amp; salzig ? Jetzt <font style="color:#F53D65">Kundenkarte</font> kostenlos beantragen</h1><br>
+		<img class="pic" src="kundencard.png" alt="img" width="35%" style="float:left;margin-left: 12%">
+		<img class="pic" src="info.png" alt="img" width="30%" style="float:right;margin-right: 20%">
 	</div>
-	<div id="footer">
+	
+	<div id="footer1">
+		<div style="float:left" >
+			<h3>Bleib auf dem Laufenden!</h3>
+			<p>Melde dich jetzt bei unserem <font style="color:#F53D65; font-family:'Rancho', cursive; font-size:150%;"> Newsletter</font> an und <br>
+				sichere dir einen 5€ Gutschein. </p>
+  			<input type="email" name="email">
+		 	<input type="submit" name="email" value="Jetzt anmelden">
+		</div>
 	</div>
-</div>
-<body>
+	<div id="footer2">
+		<div style="float:right; margin-right:10%">
+			<table class="impressum">
+				<tr class="padding">
+					<td class="border1"><a href="Datenschutz.html">Datenschutz</a></td>
+					<td class="border2"><a href="Impressum.html">Impressum</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
 </body>
 </html>
-
