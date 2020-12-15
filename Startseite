@@ -1,1 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+ 	<title>Bäckerei süß &amp; salzig</title>
+</head>
+<div id="wrapper">
+	<div id="header">
+		<img src="Logo.png" alt="logo" width="20%">
+		<h2>Herzlich Willkommen bei der <font style="color:#F53D65">Bäckerei</font> süß &amp; salzig</h2>
+		<p>Wir freuen uns, dass Sie sich für unsere handwerklichen Backwaren interessieren. <br>
+			Ob Brot, Brötchen, Kuchen oder Torten – wir stehen immer für beste Qualität.</p>
+		<p>Stöbern Sie durch unsere Internetseiten und besuchen Sie uns mal vor Ort.<br>
+			Wir freuen uns auf Sie.</p>
+	</div>
+	<div id="navbar">
+		<table class="table1">
+			<tr>
+				<td class="active" width="5%"><a href="Startseite.html">Start</a></td>
+				<td class="bar" width="10%"><a href="ÜberUns.html">Über uns</a></td>
+				<td class="bar" width="30%"><a href="UnserSortiment.html">Unser Sortiment</a></td>
+				<td class="bar" width="30%"><a href="Dienstleistungen.html">Dienstleistungen</a></td>
+				<td class="kontakt" width="25%"><a href="Kontakt.html">Kontakt</a></td>
+			</tr>
+		</table>
+	</div>
+	<div id="contentn">
+		<table class="table2">
+		<tr>
+			<td class="text">
+			<h1>Das sind Wir !</h1>
+			<h2>Die Founder von <font style="color:#F53D65">Bäckerei</font> süß &amp; salzig</h2>
+			<p>Seid 2020 steht die kleine aber feine <br>
+			Bäckerei im Herzen von Hannover.<br>
+			Auch in Covid-19-Zeiten stehen Michel und Anny <br>
+			für euch ab 06:30 Uhr hinter der Backtheke.</p>
+			<p>Mit viel Liebe backt Anny jeden Morgen ihre <br>
+			frischen Zimtschnecken nach dem Rezept ihrer <br>
+			Oma. Zusammen mit dem selbst kreierten Kaffee-<br>
+			Chai-Latte von Michel wird das Frühstück perfekt. </p>
+		</td>
+		</tr></table>
+
+	</div>
+	<div id="contentk">
+	</div>
+	<div id="footer">
+	</div>
+</div>
+<body>
+</body>
+</html>
 
